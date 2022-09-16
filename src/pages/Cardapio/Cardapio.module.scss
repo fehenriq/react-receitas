@@ -22,10 +22,15 @@
     display: flex;
     height: 300px;
     padding: 0px $padding-horizontal;
-    @media (max-width: $desktop_xsm) {
-      padding: 0px $padding-horizontal-mobile;
+    @media (max-width: $mobile-small) {
+      justify-content: center;
+      align-items: center;
     }
-    @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
+    @media (min-width: $mobile-small) and (max-width: $mobile) {
+      justify-content: center;
+      align-items: center;
+    }
+    @media (min-width: $mobile) and (max-width: $desktop_sm) {
       padding: 0px $padding-horizontal-sm;
     }
     @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
