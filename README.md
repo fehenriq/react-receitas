@@ -17,12 +17,13 @@ Conteúdos adicionais:
 - Campo de busca funcional
 - Filtro por tag [massas, carnes, veganos, combos]
 - Ordenação por opções [porcao, qtd_pessoas, valor]
+Ao clicar na imagem o usuáeio é levado até uma página do prato escolhido
 
 ### Sobre
 Página simples onde é mostrado um texto sobre o restaurante e algumas fotos
 
 ### NotFound
-Quando é digitado uma url não existente o site redireciona o usuário para uma página de 404
+Quando é digitado uma url não existente o site redireciona o usuário para uma página de 404 personalizada
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -34,6 +35,8 @@ Quando é digitado uma url não existente o site redireciona o usuário para uma
 - `CSS Modules`
 - `Normalize`
 - `React Icons`
+- `React Router DOM`
+- `ESLint`
 
 ## 🛠️ Para abrir e rodar o projeto:
 
