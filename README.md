@@ -7,12 +7,12 @@ Site de um restaurante feito com React
 Criado 4 páginas [inicio, cardapio, sobre, notfound]
 
 ### Inicio
-Página onde é mostrado sempre 3 recomendações da cozinha aleatóriamente  
+Página onde é mostrado 3 recomendações da cozinha aleatóriamente  
 Botão Ver mais onde leva o usuário até uma página do prato escolhido
 
 ### Cardapio  
 Exibição de uma lista de pratos  
-Os pratos contém [foto, nome, descricao, tag, qtd_pessoas, quantidade, valor]  
+Os pratos contém [foto, nome, descricao, tag, qtd_pessoas, porcao, valor]  
 Conteúdos adicionais:
 - Campo de busca funcional
 - Filtro por tag [massas, carnes, veganos, combos]
