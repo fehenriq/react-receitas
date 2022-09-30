@@ -6,7 +6,7 @@ import { memo } from 'react';
 
 function Item(props: Prato) {
   const { id, title, description, photo } = props;
-  id === 1 && console.log(title);
+  id === 5 && console.log(title);
   const navigate = useNavigate();
   return (
     <div className={styles.item} onClick={() => navigate(`/prato/${id}`)}>
@@ -24,7 +24,4 @@ function Item(props: Prato) {
   );
 }
 
-export default memo(Item, (propsAnteriores, proximosProps) => {
-  console.log('%cindex.tsx line:29 propsAnteriores, proximosProps', 'color: #007acc;', propsAnteriores, proximosProps);
-  return false;
-});
+export default memo(Item);
